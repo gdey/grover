@@ -76,6 +76,7 @@ function.
 #### Breaking Changes.
 
 Removing a function from the package.
+
 Changing the signature of the function.
 
 #### Minor Changes.
@@ -89,6 +90,7 @@ Adding a new function to the package.
 
 
 Removing a Variable or Constant.
+
 Changing the type of a Variable or Constant.
 
 #### Minor Changes
@@ -100,13 +102,17 @@ Adding a new Variable or Constant
 #### Breaking Changes
 
 Changing the underlining type of a custom type.
+
 Removing a custom type.
+
 Removing exported function of a custom type.
+
 Changing the signature of a function of a custom type.
 
 #### Minor Changes
 
 Adding new custom type.
+
 Adding a new exported function of a custom type.
 
 
@@ -117,12 +123,11 @@ Also, the struct base type has the following additional rules.
 #### Breaking changes
 
 Removing a exported field.
+
 Changing the type of an exported field.
-Adding an exported atomic.Mutex field, as old software may need to be updated to
-so that it properly locks and unlocks the field.
+
+Adding an exported atomic.Mutex field, as old software may need to be updated to so that it properly locks and unlocks the field.
 
 #### Minor changes
 
-Adding a new field, exported or private.
-
-
+Adding a new field.
